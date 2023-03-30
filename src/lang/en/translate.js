@@ -1,0 +1,3 @@
+export const languageEN = {
+    welcome: "Welcome", slectelLanguage: "Language", languageEng: "English", languageCat: "Catalan", languageDen: "German", languageEsp: "Spanish", chatTitle: "Lama Chat", loginTitle: "Login", emailInputPlaceholder: "your email...", passwordInputPlaceholder: "your password...", loginBtn: "Log In", loginErrorMessage: "Something went wrong...", notHaveAcountYetText: "You do not have an account yet?", alreadyHaveAcountYetText: "Already have an account?", resgisterBtn: "Sign Up", registerTitle: "Register", displayNameInputPlaceholder: "display name...", addAvatarImageText: "add an avatar"
+}
