@@ -63,6 +63,7 @@ export const Posts = [
   },
   {
     id: 2,
+    desc: "",
     photo: "assets/img/post/2.jpeg",
     date: "hace minutos 15",
     userId: 2,
