@@ -14,7 +14,8 @@ export interface PostProps {
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/configuration-for-posts-and-templates
  */
-export const Post = ({ className }: PostProps) => {
+export const Post = ({ className}: PostProps) => {
+    
     return (
         <div className={classNames(className, styles.post)}>
             <div className={styles.postWrapper}>
@@ -28,7 +29,7 @@ export const Post = ({ className }: PostProps) => {
                         <span className={classNames(styles.postuserName, styles.postUserName)}>
                             José Panero
                         </span>
-                        <span className={styles.postDate}>hace 30 minutos</span>
+                        <span className={styles.postDate}>hace 10 minutos</span>
                     </div>
                     <div className={styles.postTopRight}>
                         <MoreVert />
@@ -36,8 +37,8 @@ export const Post = ({ className }: PostProps) => {
                 </div>
                 <div className={styles.postCenter}>
                     <span className={styles.postText}>
-                        Mi primer post publicado :)
-                        <img src={PostImage} className={styles.postImage} alt={'Imagen del Post'} />
+                        Mi primer post :)
+                        <img src={PostImage} alt={'Imagen del Post'} />
                     </span>
                 </div>
                 <div className={styles.postBottom}>
@@ -52,7 +53,7 @@ export const Post = ({ className }: PostProps) => {
                             alt={'Icono de lo Amo'}
                             className={styles.postHartIcon}
                         />
-                        <span className={styles.postCounterLikes}>a 32 personas le gusta</span>
+                        <span className={styles.postCounterLikes}>a 6 personas le gusta</span>
                     </div>
                     <div className={styles.postBottomRight}>
                         <span className={styles.postCommentsText}>10 comentarios</span>

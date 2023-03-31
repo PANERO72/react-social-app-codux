@@ -15,10 +15,7 @@ export const Feed = ({ className}: FeedProps) => {
         <div className={classNames(className, styles.feed)}>
             <div className={styles.feedWrapper}>
                 <Share />
-                <Post />
-                <Post />
-                <Post />
-                <Post />
+                <Post /> 
             </div>
         </div>
     </>);
