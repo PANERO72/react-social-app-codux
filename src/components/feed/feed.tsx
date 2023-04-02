@@ -2,6 +2,7 @@ import styles from './feed.module.scss';
 import classNames from 'classnames';
 import { Share } from '../share/share';
 import { Post } from '../post/post';
+import {Posts} from '../../dummyData';
 
 export interface FeedProps {
     className?: string;
