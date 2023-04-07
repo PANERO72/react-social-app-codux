@@ -14,51 +14,9 @@ export interface PostProps {
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/configuration-for-posts-and-templates
  */
-export const Post = ({ className,  }: PostProps) => {
+export const Post = ({ className }: PostProps) => {
     return (
         <div className={classNames(className, styles.post)} >
-            <div className={styles.postWrapper}>
-                <div className={styles.postTop}>
-                    <div className={styles.postTopLeft}>
-                        <img
-                            src={PostProfileImg}
-                            className={styles.postProfileImg}
-                            alt={'Imagen de Perfil'}
-                        />
-                        <span className={classNames(styles.postuserName, styles.postUserName)}>
-                            José Panero
-                        </span>
-                        <span className={styles.postDate}>hace 10 minutos</span>
-                    </div>
-                    <div className={styles.postTopRight}>
-                        <MoreVert />
-                    </div>
-                </div>
-                <div className={styles.postCenter}>
-                    <span className={styles.postText}>
-                        Mi primer post :)
-                        <img src={PostImage} alt={'Imagen del Post'} />
-                    </span>
-                </div>
-                <div className={styles.postBottom}>
-                    <div className={styles.postBottomLeft}>
-                        <img
-                            src={LikeIcon}
-                            alt={'Icono de me Gusta'}
-                            className={styles.postLikeIcon}
-                        />
-                        <img
-                            src={HeartIcon}
-                            alt={'Icono de lo Amo'}
-                            className={styles.postHartIcon}
-                        />
-                        <span className={styles.postCounterLikes}>a 6 personas le gusta</span>
-                    </div>
-                    <div className={styles.postBottomRight}>
-                        <span className={styles.postCommentsText}>10 comentarios</span>
-                    </div>
-                </div>
-            </div>
             <div className={styles.postWrapper}>
                 <div className={styles.postTop}>
                     <div className={styles.postTopLeft}>
