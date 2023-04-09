@@ -1,3 +1,18 @@
+import PostImage1 from './assets/img/post/1.jpeg';
+import PostImage2 from './assets/img/post/2.jpeg';
+import PostImage3 from './assets/img/post/3.jpeg';
+import PostImage4 from './assets/img/post/4.jpeg';
+import PostImage5 from './assets/img/post/5.jpeg';
+import PostImage6 from './assets/img/post/6.jpeg';
+import PostImage7 from './assets/img/post/7.jpeg';
+import PostImage8 from './assets/img/post/8.jpeg';
+import PostImage9 from './assets/img/post/9.jpeg';
+import PostImage10 from './assets/img/post/10.jpeg';
+
+import './i18n';
+
+
+
 export const Users = [
   {
     id:1,
@@ -55,7 +70,8 @@ export const Posts = [
   {
     id: 1,
     desc: "Love For All, Hatred For None.",
-    photo: "assets/img/post/1.jpeg",
+    // photo: "./assets/img/post/1.jpeg",
+    photo: PostImage1,
     date: "hace minutos 5",
     userId: 1,
     like: 32,
@@ -64,7 +80,7 @@ export const Posts = [
   {
     id: 2,
     desc: "",
-    photo: "assets/img/post/2.jpeg",
+    photo: PostImage2,
     date: "hace minutos 15",
     userId: 2,
     like: 2,
@@ -73,7 +89,7 @@ export const Posts = [
   {
     id: 3,
     desc: "Every moment is a fresh beginning.",
-    photo: "assets/img/post/3.jpeg",
+    photo: PostImage3,
     date: "hace 1 hora",
     userId: 3,
     like: 61,
@@ -82,7 +98,7 @@ export const Posts = [
   {
     id: 4,
     desc: "",
-    photo: "assets/img/post/4.jpeg",
+    photo: PostImage4,
     date: "hace 4 horas",
     userId: 4,
     like: 7,
@@ -91,7 +107,7 @@ export const Posts = [
   {
     id: 5,
     desc: "",
-    photo: "assets/img/post/5.jpeg",
+    photo: PostImage5,
     date: "hace 5 horas",
     userId: 5,
     like: 23,
@@ -100,7 +116,7 @@ export const Posts = [
   {
     id: 6,
     desc: "",
-    photo: "assets/img/post/6.jpeg",
+    photo: PostImage6,
     date: "hace 1 día",
     userId: 6,
     like: 44,
@@ -109,7 +125,7 @@ export const Posts = [
   {
     id: 7,
     desc: "Never regret anything that made you smile.",
-    photo: "assets/img/post/7.jpeg",
+    photo: PostImage7,
     date: "hace 2 días",
     userId: 7,
     like: 52,
@@ -118,7 +134,7 @@ export const Posts = [
   {
     id: 8,
     desc: "",
-    photo: "assets/img/post/8.jpeg",
+    photo: PostImage8,
     date: "hace 3 días",
     userId: 8,
     like: 15,
@@ -127,7 +143,7 @@ export const Posts = [
   {
     id: 9,
     desc: "Change the world by being yourself.",
-    photo: "assets/img/post/9.jpeg",
+    photo: PostImage9,
     date: "hace 5 días",
     userId: 9,
     like: 11,
@@ -136,7 +152,7 @@ export const Posts = [
   {
     id: 10,
     desc: "",
-    photo: "assets/img/post/10.jpeg",
+    photo: PostImage10,
     date: "hace 1 semana",
     userId: 10,
     like: 104,

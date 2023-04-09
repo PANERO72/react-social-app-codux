@@ -16,7 +16,10 @@ export const Feed = ({ className}: FeedProps) => {
         <div className={classNames(className, styles.feed)}>
             <div className={styles.feedWrapper}>
                 <Share />
-                <Post /> 
+                {Posts.map((p) => (
+                    <Post key={p.id} id={p.id} desc={p.desc} photo={p.photo} date={p.date} userId={p.userId} like={p.like} comment={p.comment} /> 
+                    )
+                )}
             </div>
         </div>
     </>);
